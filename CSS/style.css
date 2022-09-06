@@ -12,6 +12,12 @@ body {
     font-family: 'TT Norms Pro', sans-serif;
 }
 
+.conteudo {
+    width: 940px;
+    min-width: 230px;
+    height: 100vh;
+  }
+
 /* Página 01 */
 
 .imagem-logo {
@@ -73,7 +79,7 @@ body {
     cursor: pointer;
 }
 
-/* Página 3 */
+/* Página 03 */
 
 .entrada-nome {
   border: none;
@@ -84,7 +90,7 @@ body {
   width: 90%;
 }
 
-/* Página 4 */
+/* Página 04 */
 
 .principal-pagina04 {
     height: 100vh;
@@ -92,13 +98,6 @@ body {
     align-items: center;
     justify-content: center;
   }
-
-.conteudo {
-  width: 940px;
-  min-width: 230px;
-  height: 100vh;
-}
-
 
 .cabecalho-interno {
     display: flex;
@@ -353,3 +352,149 @@ body {
     align-self: flex-end;
     font-size: 0.875rem;
 }
+
+/* Página 05 */
+
+.prato {
+    background: #FFA451;
+    height: 40vh;
+    width: 100%;
+}
+
+.botao-voltar {
+    padding: 4% 0 1% 4%;
+ }
+
+.botao-voltar a {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 5px;
+  font-size: 12px;
+  color: #27214D;
+}
+
+.imagem-prato {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9%;
+}
+
+.imagem-prato img {
+    max-width: 110%;
+    height: 110%;
+  }
+
+.pedido {
+    margin-top: 2em;
+    width: 100%;
+    height: 60%;
+    padding: 10% 4% 0 4%;
+    background-color: #FFFFFF;
+ }
+
+.titulo-pedido {
+    font-size: 2em;
+    font-weight: bold;
+    color:#27214D;
+ }
+
+ .detalhes-pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #F3F3F3;
+    padding-bottom: 2%;
+ }
+
+ .adicao-produto {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    align-items: center;
+ }
+
+ .detalhes-pedido p {
+    margin-top: 5%;
+    font-weight: bold;
+    color:#27214D;
+    font-size: 24px;
+    
+ }
+
+ .combo-pedido {
+    width: 100%;
+    height: 60%;
+    padding: 4% 4% 0 4%;
+    background-color: #FFFFFF;
+ }
+
+  .combo-pedido h2 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #27214D;
+  }
+
+  .combo-pedido h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FFA451;
+  }
+  .combo-pedido ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  .combo-pedido ul li {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 8px;
+    margin-top: 8px;
+    color: #403E3E;
+    list-style: none;
+  }
+
+  .descricao-pedido {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  .descricao-pedido p {
+    color: #333333;
+    font-weight: 200;
+  }
+
+  .butao-pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 5% 0 5%;
+    padding-bottom: 10px;
+    
+  }
+  .butao-pedido img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .butao-pedido button {
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #FFA451;
+    cursor: pointer;
+  }
