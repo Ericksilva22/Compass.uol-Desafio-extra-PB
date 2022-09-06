@@ -10,9 +10,10 @@
 
 body {
     font-family: 'TT Norms Pro', sans-serif;
-  }
+}
 
 /* Página 01 */
+
 .imagem-logo {
     height: 100vh;
     display: flex;
@@ -81,4 +82,274 @@ body {
   margin-top: 30px;
   margin-left: 1.6em;
   width: 90%;
+}
+
+/* Página 4 */
+
+.principal-pagina04 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.conteudo {
+  width: 940px;
+  min-width: 230px;
+  height: 100vh;
+}
+
+
+.cabecalho-interno {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 5%;
+  }
+
+.menu-principal {
+    display: flex;
+  }
+
+.cabecalho .menu-principal h2 {
+    margin-left: 20px;
+    font-weight: 400;
+    color: #27214D;
+}
+
+.busca-formulario {
+    display: flex;
+    margin: 5%;
+  }
+
+.cabecalho .busca-formulario .entrada-formulario {
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    padding: 20px;
+    width: 100%;
+  }
+
+.cabecalho .busca-formulario .entrada-formulario i {
+    color: #B4B4C0;
+  }
+
+.cabecalho .busca-formulario .entrada-formulario input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 15px;
+    color: #B4B4C0;
+  }
+
+.cabecalho .busca-formulario .entrada-formulario input:focus {
+    outline: none;
+  }
+
+.cabecalho .busca-formulario div {
+    margin-left: 5px;
+  }
+
+.assuntos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    padding: 8px 20px;
+    background-color: #FAFAFA;
+    -webkit-overflow-scrolling: touch;
+  }
+.assuntos-cards {
+    flex: 0 0 auto;
+    margin-right: 3px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 23%;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.assuntos-cards span {
+    color: #333333;
+    font-size: 80%;
+  }
+
+.assuntos::-webkit-scrollbar {
+    display: none;
+  }
+
+.menu-combo {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+.menu-combo h2 {
+    cursor: pointer;
+    font-size: 112.5%;
+    line-height: 30px;
+    color: #27214D;
+  }
+
+.menu-combo h2:not(h2:first-child) {
+    margin-left: 30px;
+    color: #253F66;
+  }
+
+.menu-combo h2:first-child::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #FFA451;
+  }
+
+.combos-conteudo {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+.combos-conteudo .card {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    border-radius: 16px;
+    padding: 3%;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+  } 
+  
+.combos-conteudo .card-coracao {
+    text-align: right;
+  }
+
+.combos-conteudo .card-coracao img {
+    width: 20px;
+  }
+
+.combos-conteudo .card a {
+    width: 100%;
+  }
+
+.combos-conteudo .card-comida {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.combos-conteudo .card-comida img {
+    width: 70%;
+    max-height: 80px;
+}
+  
+.combos-conteudo .card p {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #27214D;
+ }
+
+.combos-conteudo .card-custo {
+    display: flex;
+    justify-content: space-around;
+    color: #FFA451;
+    margin-top: 8px;
+ }
+
+.combos-conteudo .card-custo span {
+    align-self: flex-end;
+    font-size: 0.875rem;
+}
+
+.combos-conteudo .card:first-child {
+    background-color: #FFFCF2;
+}
+
+.combos-conteudo .card:nth-child(2) {
+    background-color: #FEF4F4;
+}
+
+.combos-conteudo .card:nth-child(3) {
+    background-color: #F1EFF6;
+}
+
+.combos-conteudo .card:last-child {
+    background-color: #F1F6FF;
+}
+
+.combos-conteudo::-webkit-scrollbar {
+    display: none;
+}
+
+.recommended {
+    margin: 7% 5% 5% 5%;
+  }
+
+.recommended h2 {
+    font-size: 112.5%;
+    line-height: 30px;
+}
+  
+.recommended h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FFA451;
+  }
+
+.recommended-conteudo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.recommended-conteudo .card {
+    border: 1px solid #f5f3f3;
+    border-radius: 16px;
+    text-align: center;
+    padding: 5%;
+    margin-left: 6px;
+    width: 50%;
+}
+
+.recommended-conteudo .card-coracao {
+    text-align: right;
+}
+
+.recommended-conteudo .card-coracao img {
+    width: 20px;
+}
+
+.recommended-conteudo .card-comida img {
+    width: 100%;
+    height: 150px;
+}
+
+.recommended-conteudo .card p {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 80%;
+    color: #27214D;
+}
+
+.recommended-conteudo .card-custo {
+    display: flex;
+    justify-content: space-around;
+    color: #FFA451;
+    margin-top: 8px;
+}
+
+.recommended-conteudo .card-custo span {
+    align-self: flex-end;
+    font-size: 0.875rem;
 }
