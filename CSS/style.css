@@ -71,3 +71,14 @@ body {
     transition: 300ms all;
     cursor: pointer;
 }
+
+/* Página 3 */
+
+.entrada-nome {
+  border: none;
+  background-color: #F7F5F5;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 1.6em;
+  width: 90%;
+}
