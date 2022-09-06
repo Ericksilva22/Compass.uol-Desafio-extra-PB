@@ -81,6 +81,15 @@ body {
 
 /* Página 03 */
 
+.titulo-nome {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 700;
+  color:#27214D;
+  padding-left: 1.6em;
+  padding-top: 1.2em;
+}
+
 .entrada-nome {
   border: none;
   background-color: #F7F5F5;
@@ -192,6 +201,7 @@ body {
     font-size: 112.5%;
     line-height: 30px;
     color: #27214D;
+    margin-left: 5%;
   }
 
 .menu-combo h2:not(h2:first-child) {
@@ -416,9 +426,13 @@ body {
  .adicao-produto {
     margin-top: 4%;
     display: flex;
-    justify-content: space-around;
     width: 10%;
     align-items: center;
+ }
+
+ .adicao-produto span {
+  margin-left: 18px;
+  margin-right: 18px;
  }
 
  .detalhes-pedido p {
@@ -440,6 +454,7 @@ body {
     font-size: 18px;
     line-height: 30px;
     color: #27214D;
+    font-weight: 400;
   }
 
   .combo-pedido h2::after {
@@ -498,3 +513,84 @@ body {
     background-color: #FFA451;
     cursor: pointer;
   }
+
+  /* Responsividade  */
+
+  @media screen and (min-width:912px) { /* todas as telas que tenham no minimo 912px */
+  
+    .titulo-nome {
+      margin-top:2rem;
+      font-size: 24px;
+    }
+
+    .titulo-cesta {
+      margin-top:2rem;
+      font-size: 24px;
+  }
+
+  .paragrafo-cesta {
+      font-size: 24px;
+      line-height: 24px;
+      padding-left: 4.4rem;
+  }
+
+  .botao-Continue-Ordering {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botao-Continue-Ordering a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 90%;
+    padding: 30px 20px;
+  }
+}
+
+  @media screen and (min-width:768px) { /* todas as telas que tenham no minimo 768px */
+    .titulo-cesta {
+      margin-top:2rem;
+      font-size: 24px;
+      margin-left: 10px;
+  }
+
+  .paragrafo-cesta {
+    font-size: 24px;
+    line-height: 24px;
+    padding-left: 3rem;
+}
+   
+  .botao-Continue-Ordering {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botao-Continue-Ordering a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 90%;
+    padding: 30px 20px;
+}
+
+.entrada-nome {
+  margin-left: 45px;
+}
+
+.titulo-nome {
+  margin-top:2rem;
+  font-size: 24px;
+  margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:912px) { 
+    .imagem-prato {
+     height: 80%;
+    }
+}
